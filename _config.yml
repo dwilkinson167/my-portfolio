@@ -1,0 +1,53 @@
+---
+title: Dyan Wilkinson
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    permalink: "/:month-:day-:year-:title:output_ext"
+    layout: post
+    author: Dylan Wilkinson
+    gists: false
+safe: false
+markdown: kramdown
+highlighter: rouge
+lsi: false
+permalink: "/:title"
+description: ' '
+baseurl: 
+url: http://portfolio.dylanwilkinson.me
+twitter_username: DylanB.Wilkinson
+github_username: dwilkinson167
+accent: "#f7f7e6"
+author: Dylan Wilkinson
+address: Seattle, WA
+email: Dylanwilkinson@gmail.com
+isolang: en
+exclude:
+- LICENSE
+- README.md
+- s3_website.yml
+replacements:
+- - "<img"
+  - "<amp-img"
+- - alt="" />
+  - ' layout="responsive" height="300px" width="600px"></amp-img>'
+- - "<video"
+  - "<amp-video"
+- - "</video"
+  - "</amp-video"
+- - <script src="https://gist.github.com/lukas-h/
+  - <amp-gist data-gistid="
+- - .js"></script>
+  - '" layout="fixed-height" height="250"></amp-gist>'
+- - id="amp"
+  - id="a-m-p"

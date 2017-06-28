@@ -1,0 +1,15 @@
+- name: 'Laravel Blog <span class="chip">NEW</span>'
+  link: "http://laravelblogdylan.azurewebsites.net/"
+  github: "https://github.com/dwilkinson167/blog"
+  description: This is a blog built with Laravel 
+- name: Trip Planner
+  link: "#"
+  description: "This Web Application is built using ASP.NET and Angular, it tracks your trips with a map API"
+- name: Youtube Clone
+  link: "#"
+  description: "Built using Laravel"
+- name: Place Holder
+  github: "#"
+  link: "#"
+  description: "Place Holder"
+
